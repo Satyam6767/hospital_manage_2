@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
-const mongoURI = 'mongodb://localhost:27017/hospital_manage2'
-// const mongoURI = "mongodb+srv://satyamkumar6767:X8gzlGnx4ohA2y2Y@cluster0.9llk5tk.mongodb.net/"
+// const mongoURI = 'mongodb://localhost:27017/hospital_manage2'
+const mongoURI = "mongodb+srv://satyamkumar6767:X8gzlGnx4ohA2y2Y@cluster0.9llk5tk.mongodb.net/"
 
 mongoose.connect(mongoURI,
     {
